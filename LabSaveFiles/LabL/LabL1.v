@@ -11,8 +11,10 @@ integer i,j,k;
 
 // Here i Instantiate yMux1
 
-yMux1 myMux(z,a,b,c);splay("a b c | z");
-$display("---------");
+yMux1 myMux(z,a,b,c);
+
+$display("count | a b c | z");
+$display("------------------------");
 		
 for (i = 0; i < 2; i = i + 1) 
 begin 

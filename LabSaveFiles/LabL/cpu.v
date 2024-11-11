@@ -310,7 +310,7 @@ output [31:0] z;
 output cout;
 input [31:0] a, b;
 input ctrl;
-wire[31:0] notB;
+wire[31:0] notB,tmp;
 wire cin;
 
 /*
@@ -321,7 +321,13 @@ Adding this 1 is quite straightforward. Since cin was default of 0 all we do is 
 'ctrl' value. ctrl can give input of 0 or 1 and if 0 then we do addtion else we do subtraction 
 */
 
-assign notB = (ctrl) ? ~b:b; // (when checking (ctrl) it checks if its 1. if i did (~ctrl) it would check if its 0. because ctrl is 1 bit 
+//USING TURNARY:
+//assign notB = (ctrl) ? ~b:b; // (when checking (ctrl) it checks if its 1. if i did (~ctrl) it would check if its 0. because ctrl is 1 bit 
+
+//USING MUX:
+assign tmp = ~b;
+yMux #(.SIZE(32)) myMux(notB,b,tmp,ctrl);
+ 
 assign cin = ctrl;
 
 yAdder myAdder(a, notB, cin, z, cout);
