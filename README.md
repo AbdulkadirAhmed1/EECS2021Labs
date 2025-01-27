@@ -10,7 +10,7 @@ The projects created in this section involve low-level programming where I write
   
 ### Visual Reference
 You can refer to the following image to better understand the increasing levels of abstraction in programming paradigms:
-![Programming Paradigms](file:///C:/Users/alpha/Downloads/ncreasing-levels-of-abstraction-in-programming-paradigms-after-Gruhn-56.png)
+![Programming Paradigms](https://imgur.com/a/Yl5sOxT)
 
 ---
 
