@@ -3,16 +3,20 @@
 ## RISC-V
 
 ### Overview
-The projects created in this section involve low-level programming where I write **assembly code** based on **procedural language code** (such as **C** or **Python**). These projects provide hands-on experience with the assembly language and processor architecture.
+The initiative in this section involves low-level programming where I write **assembly code** based on **procedural language code** (such as **C** or **Python**). These projects provide hands-on experience with assembly language and processor architecture.
 
-### Projects
+### RISC-V Development
 - **Assembly Translation**: I translate high-level programming concepts (like loops and conditionals) into RISC-V assembly, closely mimicking what a compiler does manually.
-  
+
+### Purpose
+Understanding and working with **RISC-V architecture** is essential for developing efficient and optimized low-level software, particularly in embedded systems and hardware design. By working with RISC-V assembly, I gain a deeper understanding of how software interacts directly with hardware, which is critical for performance-sensitive applications such as operating systems, device drivers, and firmware development. Additionally, RISC-V's open-source nature makes it an important tool for creating custom processors and optimizing existing architectures.
+
 ### Visual Reference
 You can refer to the following image to better understand the increasing levels of abstraction in programming paradigms:
 ![Programming Paradigms](https://i.imgur.com/LnQigiX.png)
 
----
+
+____________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Verilog
 
@@ -20,14 +24,25 @@ You can refer to the following image to better understand the increasing levels 
 In this section, I worked on Verilog projects where I designed digital systems and processors at a very low level.
 
 ### Projects
-- **CPU Design with 5 Data Paths**: I created a **CPU** with the following five main data paths:
-  1. **IF (Instruction Fetch)**
-  2. **ID (Instruction Decode)**
-  3. **EXE (Execute)**
-  4. **MEM (Memory Access)**
-  5. **WB (Write Back)**
+- **CPU Design**: *Project A*
+  - **Status**: Active 
+  - **Description**: I created a **CPU** with the following five main data paths:
+        1. **IF (Instruction Fetch)**
+        2. **ID (Instruction Decode)**
+        3. **EXE (Execute)**
+        4. **MEM (Memory Access)**
+        5. **WB (Write Back)**
 
-- **Cache System Design**: I developed a system that integrates multiple levels of **cache** (L1, L2, L3) to optimize the CPU's performance by minimizing memory access time.
+- **Cache System Design**: 
+  - **Status**: N/A (Not Available)
+  - **Description**: I developed a system that integrates multiple levels of **cache** (L1, L2, L3) to optimize the CPU's performance by minimizing memory access time. (This project implments 
+    *Project A*)
+      
+- **Pipelined CPU Design**:
+  - **Status**: N/A (Not Available)
+  - **Description**: In this project, the CPU design incorporates pipelining to increase instruction throughput. Each instruction passes through the stages of **IF**, **ID**, **EXE**, **MEM**, 
+    and **WB**, allowing the CPU to execute multiple instructions at once. However, this specific design has not yet been fully implemented or tested. (This project implments *Project A*)
+
 
 ### Highlights
 - **CPU Design**: Designed a functional CPU architecture that includes all the necessary components for instruction execution.
