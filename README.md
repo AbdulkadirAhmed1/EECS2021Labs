@@ -6,7 +6,7 @@
 The initiative in this section involves low-level programming where I write **assembly code** based on **procedural language code** (such as **C** or **Python**). These projects provide hands-on experience with assembly language and processor architecture.
 
 ### RISC-V Development
-- **Assembly Translation**: I translate high-level programming concepts (like loops and conditionals) into RISC-V assembly, closely mimicking what a compiler does manually.
+- **Assembly Translation**: I translate high-level programming concepts (such as **loops**, **recursion**, and **conditionals**) into RISC-V assembly, closely mimicking what a compiler does manually.
 
 ### Purpose
 Understanding and working with **RISC-V architecture** is essential for developing efficient and optimized low-level software, particularly in embedded systems and hardware design. By working with RISC-V assembly, I gain a deeper understanding of how software interacts directly with hardware, which is critical for performance-sensitive applications such as operating systems, device drivers, and firmware development. Additionally, RISC-V's open-source nature makes it an important tool for creating custom processors and optimizing existing architectures.
