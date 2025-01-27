@@ -33,12 +33,12 @@ In this section, I worked on Verilog projects where I designed digital systems a
         4. **MEM (Memory Access)**
         5. **WB (Write Back)**
 
-- **Cache System Design**: 
+- **Cache System Design**: *Project B*
   - **Status**: N/A (Not Available)
   - **Description**: I developed a system that integrates multiple levels of **cache** (L1, L2, L3) to optimize the CPU's performance by minimizing memory access time. (This project implments 
     *Project A*)
       
-- **Pipelined CPU Design**:
+- **Pipelined CPU Design**: *Project C*
   - **Status**: N/A (Not Available)
   - **Description**: In this project, the CPU design incorporates pipelining to increase instruction throughput. Each instruction passes through the stages of **IF**, **ID**, **EXE**, **MEM**, 
     and **WB**, allowing the CPU to execute multiple instructions at once. However, this specific design has not yet been fully implemented or tested. (This project implments *Project A*)
