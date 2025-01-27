@@ -11,10 +11,6 @@ The initiative in this section involves low-level programming where I write **as
 ### Purpose
 Understanding and working with **RISC-V architecture** is essential for developing efficient and optimized low-level software, particularly in embedded systems and hardware design. By working with RISC-V assembly, I gain a deeper understanding of how software interacts directly with hardware, which is critical for performance-sensitive applications such as operating systems, device drivers, and firmware development. Additionally, RISC-V's open-source nature makes it an important tool for creating custom processors and optimizing existing architectures.
 
-### Visual Reference
-You can refer to the following image to better understand the increasing levels of abstraction in programming paradigms:
-![Programming Paradigms](https://i.imgur.com/LnQigiX.png)
-
 
 ____________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -46,5 +42,13 @@ In this section, I worked on Verilog projects where I designed digital systems a
 
 ### Highlights
 - **CPU Design**: Designed a functional CPU architecture that includes all the necessary components for instruction execution.
-- **Cache Design**: Implemented cache levels (L1, L2, L3) to simulate and improve data retrieval times, reflecting real-world processor cache hierarchies.
+- **Cache Design**: Implemented cache levels (L1, L2, L3) to simulate and improve data retrieval times, reflecting real-world processor cache hierarchies. 
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+### Conclusion: Manipulating Machine Code
+In both **RISC-V assembly programming** and **Verilog hardware design**, we are working at a low level of abstraction. While in **RISC-V**, we translate high-level programming concepts into assembly code (which is closely tied to machine code), in **Verilog**, we design hardware that ultimately depends on machine code. The image below highlights how **assembly code** and **machine code** are closely connected, and how both **RISC-V** and **Verilog** play a role in manipulating and working with these low-level representations.
+
+![Programming Paradigms](https://i.imgur.com/LnQigiX.png)
+
 
