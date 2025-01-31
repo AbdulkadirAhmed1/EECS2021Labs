@@ -49,6 +49,6 @@ ________________________________________________________________________________
 ### Conclusion: Manipulating Machine Code
 In both **RISC-V assembly programming** and **Verilog hardware design**, we are working at a low level of abstraction. While in **RISC-V**, we translate high-level programming concepts into assembly code (which is closely tied to machine code), in **Verilog**, we design hardware that ultimately depends on machine code. The image below highlights how **assembly code** and **machine code** are closely connected, and how both **RISC-V** and **Verilog** play a role in manipulating and working with these low-level representations.
 
-![Programming Paradigms](https://i.imgur.com/buYiSAt.jpeg)
+![Programming Paradigms](https://i.imgur.com/LnQigiX.png)
 
 
